@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/currencySelector.css">
+    <title>Currency Selector</title>
+</head>
+<body>
+    <div class="CurrencySelector_wrapper">
+        <h1 class="CurrencySelector_title">Currency Selector!</h1>
+        <p>Данный сайт позволяет посмотреть информацию по интересующей валюте</p>
+        <form>
+            <label for="Curr_Selector">Выберете нужную валюту из списка: </label>
+            <select id="Curr_Selector">
+            </select>
+        </form>
+        <div id="resultDiv">
+            <p id="resultTitle"></p>
+            <p id="resultValue"></p>
+            <p id="resultPrevValue"></p>
+        </div>
+    </div>
+</body>
+
+<script src="scripts/currencySelector.js"></script>
+</html>
